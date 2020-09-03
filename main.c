@@ -8,7 +8,7 @@
 #include <readline/readline.h>
 
 int main(void) {
-  char *celsius = readline("Enter temperature in celcius: ");
+  char *celsius = readline("Enter temperature in celsius: ");
   double temp = atof(celsius);
   double fahrenheit = ((temp * 1.8) +32);
   printf("%f° in Celsius is equivalent to %f° Fahrenheit.\n", temp, fahrenheit);
